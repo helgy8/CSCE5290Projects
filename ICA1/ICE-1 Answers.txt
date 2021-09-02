@@ -1,0 +1,15 @@
+# Question 1
+## Why we use stopwords? Why stopwords are not necessary for NLP frequency distribution.
+
+We use stopwords in english because they make the language sound more consitent and provide meaning, which is likely the same for other languages as well. Most articles separate between general instances of a noun and specific instances for context, and most prepostions give directionality to verbs. This level of detail is not completely necessary for summarization or sentiment analysis. When we only want to see how often words are used, these words will show as high frequency, but they give no meaning without the specific nouns they are attached to, so we should focus on those instead.
+
+# Question 2
+## Based on high frequency words what information you can extract from the graph?
+
+Based on the highest frequency words, this article appears to be talking about the first spaceX rocket, the Falcon 9, which had it's coronative launch in March and was retrieved in May. I say all of this as a guess, but that is the meaning that I personally extract from this summariztion of frequently used words. 
+With certainty, this article is about SpaceX's Falcon 9 rocket being some kind of original, it was launched and retrieved, and we can assume the important dates are in March and May, though I am not sure what took place when. 
+
+# Question 3
+## Can you provide different visualization for frequency distribution? If yes, please perform. If no, why?
+
+Yes, a bar chart is used to show the same data, which seems more relevant, though more tedious to code.
